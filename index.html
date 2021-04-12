@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Travel landing page</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Travel</h2>
+      <h1>By Aniket Mukherjee</h1>
+      <div class="toggle"></div>
+    </header>
+   <!--video src="explore.mp4" muted loop autoplay></video-->
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Never Stop To </h2> 
+      <h3>Exploring The World</h3>
+      <p>“Travel isn’t always pretty. It isn’t always comfortable. Sometimes it hurts, it even breaks your heart. But that’s okay. The journey changes you; it should change you. It leaves marks on your memory, on your consciousness, on your heart, and on your body. You take something with you. Hopefully, you leave something good behind.” – Anthony Bourdain.</p>
+      <a href="https://www.youtube.com/watch?v=9WyZWvpZiB4" target="_blank">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://travel.economictimes.indiatimes.com/latest-news" target="_blank">News</a></li>
+      <li><a href="https://www.holidify.com/collections/best-places-in-the-world" target="_blank">Destination</a></li>
+      <li><a href="https://www.gigapromo.in/?q=traveling%20blogs&asid=giga_in_ba_gc2_01&de=c&ac=9993&cid=316683878&aid=1349101192431809&kid=kwd-84319056536885:loc-90&locale=en_IN&msclkid=3c15d195abb71e4e9daeb1e4682c4525" target="_blank">Blog</a></li>
+      <li><a href="https://www.linkedin.com/in/aniket-mukherjee-1b3798183/" target="_blank">Contact</a></li>
+    </ul>
+  </div>
+  <script>
+     const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+</html>
